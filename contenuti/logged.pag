@@ -1,0 +1,10 @@
+<br/>
+<table>
+<tr>
+	<td style="font:normal bolder 10px Verdana">Benvenuto [utente] - ([tipo])</td>
+	<form name="login" action="../Schema/logout.php" method="post"><td style="font:normal bolder 10px Verdana">
+	<input type="submit" value="Logout" /></td>
+	</form>
+</tr>
+</table>
+[warning_sms]

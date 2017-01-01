@@ -1,0 +1,7 @@
+<table class="corpo_testo">
+<tr><td height="10px"></td></tr>
+<form name="recupera" action="recupero_username.php" method="post">
+<td style="font:normal bolder 10px Verdana"></td>
+<tr><td>Inserisci il codice fiscale:</td><td> <input type="text" name="codice_fiscale" />
+<tr><td><input type="submit" value="Recupera" /></td></form>
+</table>

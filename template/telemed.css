@@ -1,0 +1,838 @@
+BODY {
+margin-top:2px;
+margin-left:30px;
+background-color: #cfcfcf;
+background-image: url(img/headerbg.gif);
+background-repeat: repeat-x;
+}
+
+
+
+
+.container {
+background-image: url(img/background4.png);
+
+
+/*border:2px solid #CCCCCC;*/
+
+}
+
+.header1_1{
+height:"120px";
+background-image:  url(img/Head.png);
+background-repeat: no-repeat;
+}
+
+.corpo{
+top:600px;
+border-left:3px solid #0c0c49;
+border-right:3px solid #0c0c49;
+color:#000000;
+font:normal normal 10px Verdana;
+
+}
+
+.menu_nav {
+text-align: center;
+color:#000000;
+font:normal normal 10px Verdana;
+
+}
+
+.colonna_dx{
+height:"100%";
+width:"100%";
+margin-right:0px;
+text-align:left;
+color:#000000;
+font:normal normal 10px Verdana;
+}
+
+.menu_sinistra { 
+text-align:right;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 11px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//padding-right: 10px; 
+text-decoration: none; 
+line-height: 200%; 
+}
+
+.menu_sinistra_logged_table {
+width:120px;
+border:1px solid #0c0c49;
+background-color:#e8e8ff;
+}
+
+.menu_sinistra_logged_tr {
+width:120px;
+}
+
+.menu_sinistra_logged_td {
+width:120px;
+text-align:left;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+line-height: 200%; 
+}
+
+.link_back_home{
+height:"100%";
+width:"100%";
+margin-right:0px;
+text-align:right;
+color:#e8e8ee;
+font:normal normal 14px Verdana;
+border:1px solid #0c0c49;
+}
+
+.link_back_home_a {
+text-align:left;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+padding-right: 10px; 
+text-decoration: none; 
+line-height: 200%; 
+}
+
+.menu_sinistra_logged_a {
+text-align:left;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//padding-right: 10px; 
+text-decoration: none; 
+line-height: 200%; 
+}
+
+.sub_menu_sinistra_logged_a {
+text-align:left;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 8px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//padding-right: 10px; 
+text-decoration: none; 
+line-height: 200%; 
+}
+
+.scheda_user_table{
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.corpo_testo { 
+margin-left: 5px;
+margin-right: 5px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.corpo_testo a{ 
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//text-decoration: none;
+}
+
+.corpo_testo_ilo { 
+margin-left: 5px;
+margin-right: 5px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.corpo_testo_ilo a{ 
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//text-decoration: none;
+}
+
+.corpo_testo_phd { 
+text-align:center;
+margin-left: 5px;
+margin-right: 5px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.corpo_testo_patent { 
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//text-decoration: none;
+}
+
+.news_testo { 
+margin-left: 5px;
+margin-right: 5px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.text_login {
+margin-left: 0px;
+margin-right: 30px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bold; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: #333333;
+color: rgb(17, 51, 102); 
+border:2px solid #808080;
+}
+
+.speciale_testo { 
+font-family: Verdana; 
+font-style: oblique; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.td_show_edit_message {
+text-align:left;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 11px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//padding-right: 10px; 
+text-decoration: none; 
+}
+
+.label_elenco_admin {
+background-color:#e2e2e0;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.elenco_admin_rigo1 {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.elenco_admin_rigo2 {
+background-color:#e8e8ee;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.elenco_admin_rigo1 a {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.elenco_admin_rigo2 a {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.div_insert_new_data {
+background-color:#e8e8ee;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+}
+
+.a_insert_new_data {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 11px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//text-decoration: none; 
+}
+
+.a_logout {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 13px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(24, 101, 121); 
+//text-decoration: none; 
+}
+
+.a_newsletter {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 11px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//text-decoration: none; 
+}
+
+.list_organizations_table {
+//border:1px solid #0c0c49;
+//border-spacing: 0;
+}
+
+.list_organizations_tr {
+
+}
+
+.list_organizations_tr:hover {
+background-color: #e8e8ee;
+}
+
+.list_organizations_td {
+background-color: #e8e8ee;
+//border:1px solid #0c0c49;
+}
+
+.list_organizations_td:hover {
+background-color: #e8e8ee;
+}
+
+.list_organizations_a {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.list_organizations_a:hover {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+display: block; 
+background-color: #a8a8ae;
+//text-decoration: none; 
+}
+
+.label_organizations {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 18px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+}
+
+.label_organizations b {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 20px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+}
+
+.list_departments_label {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 20px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+}
+
+.list_departments_table {
+border-spacing: 8;
+}
+
+.list_departments_tr {
+
+}
+
+.list_departments_td {
+
+}
+
+.list_departments_td a{
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.list_departments_td a:hover{
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+background-color: #e8e8ee;
+}
+
+.departments_info_table {
+}
+
+.departments_info_tr {
+}
+
+.departments_info_td {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.departments_info_td a{
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.fib_form {
+}
+
+.fib_form_label {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_row {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_input {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_input_email {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_3 {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_4 {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_13 {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_13_option {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_16 {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_16_option {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.fib_form_submit {
+}
+
+.fib_form_submit_button {
+}
+
+.search_box {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.search_box a{
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//text-decoration: none; 
+}
+
+.search_simple_box {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.search_advanced_box {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: normal; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.doc_template_td {
+width: 500px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bold; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.doc_template_td a {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none;
+}
+
+.doc_template_a {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 10px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+text-decoration: none; 
+}
+
+.label_lista_wp {
+//padding-top: 20px;
+padding-left: 10px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.wp_a {
+//padding-top: 20px;
+padding-left: 10px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 16px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102); 
+//text-decoration: none; 
+}
+
+.title_wp {
+//padding-top: 20px;
+padding-left: 10px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+}
+
+.td_show_edit_message {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+text-decoration: none;
+}
+
+.td_show_edit_message a {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 14px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+//text-decoration: none;
+}
+
+.body_wp {
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+text-decoration: none;
+}
+
+.body_wp a {
+padding-left: 10px;
+font-family: Verdana; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: bolder; 
+font-size: 12px; 
+font-size-adjust: none; 
+font-stretch: normal; 
+color: rgb(17, 51, 102);
+text-decoration: none;
+}

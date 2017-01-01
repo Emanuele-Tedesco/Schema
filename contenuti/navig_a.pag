@@ -1,0 +1,4 @@
+<a class="menu_sinistra" href="index.php?case=gestione_p" title="Gestione paziente">Gestione paziente</a><br>
+<a class="menu_sinistra" href="index.php?case=gestione_o" title="Gestione operatore">Gestione operatore</a><br>
+<a class="menu_sinistra" href="index.php?case=gestione_d" title="Gestione dispositivo">Gestione dispositivo</a><br>
+<a class="menu_sinistra" href="visualizza_m.php?case=tot" title="Visualizza panoramica generale misurazioni">Panoramica misurazioni</a><br>

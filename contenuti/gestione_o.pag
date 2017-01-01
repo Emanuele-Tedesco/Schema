@@ -1,0 +1,8 @@
+<table class="corpo_testo">
+</br><td style="font:normal bolder 10px Verdana">
+<tr><td><form name="inserisci" action="index.php?case=inserisci_p&utente=o" method="post"></td></tr></br>
+	<input type="submit" value="Inserisci nuovo operatore" /></td>
+	</form></br>
+<tr><td><form name="ricerca" action="index.php?case=ricerca_p&utente=o" method="post"></td></tr></br>
+	<input type="submit" value="Visualizza/modifica anagrafica operatore" /></td>
+</form></table>

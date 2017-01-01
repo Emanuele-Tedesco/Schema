@@ -1,0 +1,71 @@
+<form name="input" action="mod_imm_anagrafica_p.php?tipo=id_paziente" method="post" enctype="multipart/form-data">
+	<table>
+	<tr>
+		<td><img src=[14] height="180px"/></td>
+	</tr>
+	<tr>
+		<td><input type="hidden" name="MAX_FILE_SIZE" value="2097152" /><input id="file" type="file" name="file" accept="image/*"></td>
+		<td>(dimensione massima 2 Mb)</td><td></td>
+		<td><input type="submit" value="Conferma"/></td>
+	</tr>	
+	</br>
+	</table>
+</form>
+<table>
+[form]
+<tr>
+	<td>Nome:</td>
+	[2]
+</tr>
+<tr>
+	<td>Cognome:</td>
+	[3]
+</tr>
+<tr>
+	<td>Data di nascita:</td>
+	[4]
+</tr>
+<tr>
+	<td>Comune di nascita:</td>
+	[5]
+</tr>
+<tr>
+	<td>Sesso:</td>
+	[6]
+</tr>
+<tr>
+	<td>Codice fiscale:</td>
+	[7]
+</tr>
+<tr>
+	<td>Indirizzo:</td>
+	[8]
+	
+</tr>
+<tr>
+	<td>CAP:</td>
+	[9]
+</tr>
+<tr>
+	<td>Città:</td>
+	[10]
+	
+</tr>
+<tr>
+	<td>Telefono cellulare:</td>
+	[11]
+</tr>
+<tr>
+	<td>Email:</td>
+	[12]
+	
+</tr>
+[ris_amm]
+<tr>
+	<td>Data registrazione:</td>
+	[13]
+	
+</tr>
+</form>
+[e]
+</table>

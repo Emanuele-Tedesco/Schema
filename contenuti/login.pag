@@ -1,0 +1,10 @@
+<form name="login" action="login.php" method="post">
+<table style="font:normal bolder 10px Verdana">
+	<tr><td>Username: <input type="text" name="user" /></td></tr>
+	<tr><td>Password: <input type="password" name="pass" /></td></tr>
+	<tr><td><input type="submit" value="Login" /></td></tr>
+	<tr><td>Dimenticata la password? <a href="index.php?case=recupera_passwd">Clicca qui</a>.</td></tr>
+	<tr><td>Dimeticati il nome utente e la password? <a href="index.php?case=recupera_username">Clicca qui</a>.</td></tr>	
+</table>
+</form>
+	

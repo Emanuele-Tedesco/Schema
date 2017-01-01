@@ -1,0 +1,13 @@
+<form width="637px" name="ricerca" action="ricerca_p.php" method="post">
+<table class="corpo_testo">
+</br><td style="font:normal bolder 10px Verdana">
+<tr>
+	<td>Cerca per:</td>
+	<td><select name="type">
+	<option value="1">Codifice Fiscale</option>
+	<option value="2" selected="selected">Cognome</option></select>
+	<input type="text" name="campo_r" /></td>
+	<td><input type="submit" value="Ricerca" /></td>
+</tr>
+</table>
+</form>

@@ -1,0 +1,30 @@
+</br>
+<form name="filtra" action="visualizza_m.php?case=filtro" method="post">	
+<table width="772px" style="font:normal 15px Verdana align="center">
+	<tr>
+		<td rowspan="2" valign="middle">Filtra per:</td>
+		<form><td align="center"><input type="checkbox" name="dispositivo" value="1" />Dispositivo</td>
+		<td align="center"><input type="checkbox" name="data" value="1" />Data</td></form>
+	</tr>
+	<tr>
+		<td align="center"><select name="type"><option value="costruttore">Costruttore</option><option value="modello" selected="selected">Modello</option></select><input type="text" SIZE=10 name="campo_f" /></td>
+		<td align="center">dal: <input SIZE=8 type="text" name="range_data1" />al: <input SIZE=8 type="text" name="range_data2" /></td>
+		<td><input type="submit" value="Filtra" /></form></td>
+		<form name="defiltra" action="visualizza_m.php?case=tot" method="post">
+		<td><input type="submit" value="Annulla filtro" /></form></td>
+	</tr>
+</table>
+</br><table width="637px" border="1" style="font:normal 15px Verdana align="center">
+<tr>
+	<th>Nome</th>
+	<th>Cognome</th>
+	<th>Codice Fiscale</th>
+	<th>Dispositivo</th>
+	<th>Costruttore</th>
+	<th>Data misurazione</th>
+	<th></th>
+	<th></th>
+	<th></th>
+</tr>
+[visualizza_m_tot]
+</table>

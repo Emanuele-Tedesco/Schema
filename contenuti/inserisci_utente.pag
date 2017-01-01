@@ -1,0 +1,25 @@
+<table class="corpo_testo">
+<tr><td height="10px"></td></tr>
+<form name="inserisci" action="inserisci_utente.php" method="post" enctype="multipart/form-data">
+<td style="font:normal bolder 10px Verdana"></td>
+<tr><td>Username*:</td><td> <input type="text" name="username" />  (minimo 5 caratteri)
+<tr><td>Password*:</td><td> <input type="password" name="password" />	(minimo 5 caratteri)
+<tr><td>Conferma password*:</td><td> <input type="password" name="re_password" />
+<tr><td>Nome*:</td><td> <input type="text" name="name" />
+<tr><td>Cognome*:</td><td> <input type="text" name="surname" />
+<tr><td>Data di nascita*:</td><td> <input type="text" name="date" value="gg-mm-aaaa"/>
+<tr><td>Comune di nascita*:</td><td> <input type="text" name="c_nascita" />
+<tr><td>Sesso*:</td><td> <input type="radio" name="sex" value=1 /> M
+<input type="radio" name="sex" value=2 /> F 
+<tr><td>Codice fiscale*:</td><td> <input type="text" name="cf" />
+<tr><td>Indirizzo*:</td><td> <input type="text" name="indirizzo" />
+<tr><td>CAP*:</td><td> <input type="text" name="cap" />
+<tr><td>Città di esidenza*:</td><td> <input type="text" name="city" />
+<tr><td>Numero di cellulare*:</td><td> <input type="text" name="tel" />
+<tr><td>Email:</td><td> <input type="text" name="email" />
+[ris_ins_paz]
+<input type="hidden" name="MAX_FILE_SIZE" value="2097152" />
+<tr><td>Immagine:</td><td><input id="file" type="file" name="file" accept="image/*"><td>(dimensione massima 2 Mb)
+<tr><td></td><td></td><td><input type="submit" value="Registra" /></form>
+<tr><td>* Campi obbligatori</td></tr>
+</table>

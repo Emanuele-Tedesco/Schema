@@ -1,0 +1,26 @@
+<table class="corpo_testo">
+<tr>
+	<td height="10px"></td></tr>
+	<form name="inserisci" action="inserisci_s.php" method="post" enctype="multipart/form-data"><td style="font:normal bolder 10px Verdana">
+<tr>
+	<td>Modello:</td><td> <input type="text" name="modello" /><br />
+<tr>
+	<td>Costruttore:</td><td> <input type="text" name="costruttore" /><br />
+<tr>
+	<td>N° seriale:</td><td> <input type="text" name="seriale" /><br />
+<tr>
+	<td>Descrizione:</td><td><textarea name="descrizione" rows="4" cols="35"></textarea></td><br />
+<tr></tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td><input type="submit" value="Registra" /></form>
+</table>
+<table class="corpo_testo">
+<tr>
+	<td>*Tutti i campi richiesti sono obbligatori.</td>
+</tr>
+<tr>
+	<td>*La descrizione deve avere una lunghezza compresa tra i 10 e 200 caratteri.</td>
+</tr>
+</table>

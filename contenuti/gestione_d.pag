@@ -1,0 +1,9 @@
+<table class="corpo_testo">
+</br><td style="font:normal bolder 10px Verdana">
+<tr><td><form name="ricerca" action="index.php?case=ricerca_s" method="post"></td></tr></br>
+	<input type="submit" value="Visualizza informazioni dispositivo" /></td>
+	</form></br>
+<tr><td><form name="inserisci" action="index.php?case=inserisci_s" method="post"></td></tr></br>
+	<input type="submit" value="Inserisci nuovo dispositivo" /></td>
+</form>
+</table>

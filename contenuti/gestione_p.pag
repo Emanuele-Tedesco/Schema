@@ -1,0 +1,18 @@
+<table class="corpo_testo">
+</br><td style="font:normal bolder 10px Verdana">
+<tr><td><form name="inserisci" action="index.php?case=inserisci_p" method="post"></td></tr></br>
+	<input type="submit" value="Inserisci nuovo paziente" /></td>
+</form></br>
+<tr><td><form name="ricerca" action="index.php?case=ricerca_p" method="post"></td></tr></br>
+	<input type="submit" value="Visualizza/modifica anagrafica paziente" /></td>
+</form></br>
+<tr><td><form name="inserisci_m" action="index.php?case=ricerca_p&tipo=ins_m" method="post"></td></tr></br>
+	<input type="submit" value="Aggiungi misurazione" /></td>
+</form></br>
+<tr><td><form name="visualizza_m" action="index.php?case=ricerca_p&tipo=vis_m" method="post"></td></tr></br>
+	<input type="submit" value="Visualizza/cancella misurazioni" /></td>
+</form></br>
+<tr><td><form name="invia_mess" action="index.php?case=ricerca_p&tipo=invia_mess" method="post"></td></tr></br>
+	<input type="submit" value="Invia messaggio" /></td>
+</form>
+</table>

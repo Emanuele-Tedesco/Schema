@@ -1,0 +1,27 @@
+<form name="ricerca" action="ricerca_s.php" method="post">
+<table class="corpo_testo"></br>
+<tr>
+	<td>Cerca per:</td>
+	<td>
+		<select name="type">
+			<option value="costruttore">Costruttore</option>
+			<option value="seriale"> Seriale</option>
+		</select>
+	</td>
+	<td><input type="text" name="campo_r" /></td>
+	<td><input type="submit" value="Ricerca" /></td>
+</tr>
+</table>
+</form>
+</br>
+<form name="ricerca_a" action="ricerca_s.php" method="post">
+<table>
+<tr>
+	<input type="hidden" name="type" value="*"/>
+	<tr>
+		<td><input type="submit" value="Visualizza tutti i dispositivi" /></td>
+	</tr>
+	</form>
+</tr>
+</table>
+</form>

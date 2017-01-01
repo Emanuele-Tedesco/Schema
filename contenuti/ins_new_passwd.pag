@@ -1,0 +1,8 @@
+<table class="corpo_testo">
+<tr><td height="10px"></td></tr>
+<form name="modifica" action="modifica_passwd.php" method="post">
+<td style="font:normal bolder 10px Verdana"></td>
+<tr><td>Inserisci la nuova password:</td><td> <input type="password" name="password" /> ( minimo 5 caratteri )
+<tr><td>Conferma la password inserita:</td><td> <input type="password" name="repassword" />
+<tr><td><input type="submit" value="Modifica password" /></td></form>
+</table>

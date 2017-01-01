@@ -1,0 +1,29 @@
+<table class="corpo_testo">
+	<tr><td height="10px"></td><td></td></tr>
+	<tr><td style="font:normal bolder 20px Verdana"><H2>Contatti</H2></td><td></td></tr>
+	<tr><td height="10px"></td><td></td></tr>
+	<tr>
+		<td><img src="contenuti/img/foto_pietro.png"></td>
+		<td style="text-align:justify">
+			<b>Ing. Pietro Lanzafame</b><br>
+			Responsabile Servizio di Telemedicina<br><br>
+			IRCCS Centro Neurolesi "Bonino-Pulejo"<br>
+			Via Palermo, S.S. 113, Ctr. Casazza<br>
+			98124 Messina (ME)<br>
+			Italia<br>
+			Tel: +39 090 3656703<br>
+			Fax: +39 090 3656750<br>
+			e-mail: <a href="mailto://pietro.lanzafame@centroneurolesi.it">pietro.lanzafame@centroneurolesi.it</a>
+		</td>
+		
+	</tr>
+        <tr><td height="40px"></td><td></td></tr>
+	<tr>
+		<td></td>
+		<td style="text-align:justify">
+			<b>Per informazioni sui servizi offerti scrivi a:</b><br>
+			<a href="mailto://telemedicina@centroneurolesi.it">telemedicina@centroneurolesi.it</a>
+		</td>
+		
+	</tr>
+</table>

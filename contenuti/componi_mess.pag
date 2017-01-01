@@ -1,0 +1,21 @@
+<table class="corpo_testo">
+<form name="inserisci" action="invia_mess.php" method="post" enctype="multipart/form-data">
+<tr>
+	<td>Destinazione:</td><td><select name="type">[tel][email]</select></td>
+</tr><br />
+<tr>
+	<td>Oggetto:</td><td><input type="text" name="object" /></td></td>
+</tr>
+<tr>
+	<td>Testo messaggio:</td><td><textarea name="text" rows="4" cols="35"></textarea></td><br />
+<tr></tr>
+</tr><tr><td></td><td></td><td><input type="submit" value="Invia" /></td></form>
+</table>
+<table class="corpo_testo">
+<tr>
+	<td>*Tutti i campi richiesti sono obbligatori.</td>
+</tr>
+<tr>
+	<td>*Nel caso di invio di sms la lunghezza totale del messaggio comprensiva dell'oggetto deve essere di massimo 1823 caratteri.</td>
+</tr>
+</table>

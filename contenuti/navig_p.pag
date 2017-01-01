@@ -1,0 +1,4 @@
+<a class="menu_sinistra" href="anagrafica_p.php?tipo=id_paziente&case=1" title="Visualizza dati anagrafici">Dati anagrafici</a><br>
+<a class="menu_sinistra" href="dati_paziente.php?case=vis_anagrafica" title="Visualizza panoramica generale misurazioni">Visualizza misurazioni</a><br>
+<!--<a class="menu_sinistra" href="ricerca_s_menu.php" title="Inoltra una nuova misurazione">Inoltra misurazione</a><br>-->
+<a class="menu_sinistra" href="dati_paziente.php?case=vis_ultima_mis" title="Visualizza l'ultima misurazione inoltrata">Ultima misurazione inoltrata</a><br>

@@ -1,0 +1,396 @@
+
+/*box blu login */
+#login-box {
+
+	width:240px;
+	height: 200px;
+	padding: 18px 1px 0px 33px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(img/login-box-backg.png) no-repeat left top;
+	
+}
+
+
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 25px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:4px;
+	text-align: right;
+	padding: 5px 65px 0 0; /* campi nome user e password */
+	margin:3 0 7px 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:170px; 
+	margin:10;
+	margin:0 0 7px 0;
+}
+
+/*campi di testo*/
+.form-login  {
+	width: 95px;
+	padding: 0px 3px 4px 1px;
+	border: 1px solid #0d2c52;
+	background-color: #1e4f8a;
+	font-size: 14px;
+	color: #ebebeb;
+}
+
+/* ----- ----- -- messaggio di errore utente non registrato- - -- -- -- - -- - -- --- ---*/
+.error {
+	    border: 1px solid;
+	    margin: 1px 18px;/* sposta il box up/dawn o dex/six  */
+	    padding:15px 15px 7px 60px;
+	    width: 118px;/*larghezza messaggio box */  
+	    font: bold 14px verdana;/*carattere grassetto */
+		box-shadow: 0 0 9px #888;/* ombra */
+	    border-radius: 12px;
+	}
+
+
+.error {
+	    color: #D8000C;
+	    background: #FFBABA url(img/icon_X.png) no-repeat 10px center;
+	}
+
+
+/* ----- ----- -- messaggio di errore  campi  vuoti  centrale- - -- -- -- - -- - -- --- ---*/
+
+.error_2 {
+	    border: 1px solid;
+	    margin: 1px 18px;/* sposta il box up/dawn o dex/six  */
+	    padding:15px 15px 7px 60px;
+	    width: 150px;/*larghezza messaggio box */  
+	    font: bold 14px verdana;/*carattere grassetto */
+		box-shadow: 0 0 9px #888;/* ombra */
+	    border-radius: 12px;
+	}
+
+
+.error_2 {
+	    color: #D8000C;
+	    background: #FFBABA url(img/icon_X.png) no-repeat 10px center;
+	}
+
+
+
+/* ----- ----- -- messaggio di benvenuto -- login effettuato - - -- -- -- - -- - -- --- ---*/
+
+.successo {
+	    border: 1px solid;
+    	margin: 15px 0px;
+	    padding:15px 20px 15px 55px;
+	    width: 140px;  
+	    font: bold 12px verdana;
+	    box-shadow: 0 0 5px #888;
+	    text-shadow: 2px 2px 2px #ccc;
+	    border-radius: 15px;
+	}
+
+	
+	.successo {
+	    color: #4F8A10;
+	    background: #DFF2BF url(img/smile_grin_48.png) no-repeat 10px center;
+	}
+	
+	
+
+
+/* ----- ----- -- messaggio di informazione box di colore azzurro - - -- -- -- - -- - -- --- ---*/
+
+.info {
+	    border: 1px solid;
+	    margin: 0px 0px;
+	    padding:15px 20px 15px 55px;
+	    width: 140px;  
+	    font: bold 12px verdana;
+	    box-shadow: 0 0 5px #888;
+	    text-shadow: 2px 2px 2px #ccc;
+	    border-radius: 15px;
+	}
+
+
+
+.info {
+	    color: #00529B;
+	    background: #BDE5F8 url(img/user_add_48.png) no-repeat 10px center;
+	}
+	
+
+/* ----- ----- -- messaggio di attenzione  box di colore giallo  - - -- -- -- - -- - -- --- ---*/
+
+
+.warning  {
+    border: 1px solid;
+    margin: 15px 0px;
+    padding:15px 20px 15px 55px;
+    width: 140px;	
+    font: bold 12px verdana;
+    box-shadow: 0 0 5px #888;
+    text-shadow: 2px 2px 2px #ccc;
+    border-radius: 15px;
+}
+
+.warning {
+	    color: #9F6000;
+	    background: #FEEFB3 url(img/warning_48.png) no-repeat 10px center;
+}
+
+/* ------ form inserimento nuovo record paziente ------------   */
+body {
+	background-color: #FFFFFF;
+}
+
+/*--------------------------------------  tratteggio del form record paziente-----  */
+fieldset {
+	border:2px groove ;
+	color: #006699;
+	padding:9px;
+}
+
+                      /*------------------- leggenda intestazione Nuovo Record --------
+legend {                                 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	letter-spacing: 5px;
+	font-weight: bold;
+	line-height: 2.1;
+	color: #006699;
+	background:  #99CCFF;
+	border: 1px solid #333;
+	padding: 3px 8px;
+}*/
+
+.titolo_h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 195%;
+	letter-spacing: -1px;
+	font-weight: normal;
+	line-height: 1.1;
+	color: #CCCCCC;
+}
+label {
+
+	width:142px;
+	height:32px;
+	margin-top:3px;
+	margin-right:4px;
+	padding-top:11px;
+	padding-left:6px;            /* distanza sfondo dai campi di testo Nome e Cognome    */
+	background-color: #006699;  /* colore sfondo testo Nome e Cognome    */
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 115%;
+	letter-spacing: 2px;
+	font-weight: normal;
+	line-height: 1.1;
+	color: #FFFFFF; /* colore del testo Nome e Cognome Paziente*/
+}
+
+
+/* div relativo ai campi di testo    */
+#leftSide {
+	width:530px;
+	padding-top:30px;
+	float:left;
+}
+
+/* div relativo text_bo    */
+.div_texbox {
+	width:347px;
+	float:right;
+	background-color: #C9C9C9;/* colore grigio sfondo dei campi nome e cognome*/
+	height:35px;
+	margin-top:3px;
+	padding-top:5px;
+	padding-bottom:3px;
+	padding-left:5px;
+}
+
+.textbox {
+	
+	background-repeat: no-repeat;
+	background-position:left;
+	width:300px;
+	font:normal 20px Arial;
+	color: #99CC33;
+	padding:3px 5px 3px 19px;
+}
+.textbox:focus, .textbox:hover {
+	background-color:#F0FFE6;
+}
+
+.nome {
+background-color: #A8D0C5; /* colore sfondo del campo nome paziente*/
+    	background-repeat: no-repeat;
+    	background-position:left;
+		width:285px;
+    	font:normal 18px Arial;
+    	color: #FFFFFF;
+    	padding:3px 5px 3px 19px;
+}
+.nome_paz:focus, .nome_paz:hover {
+	background-color:#F0FFE6;
+}
+   
+.cognome {
+    	background-color: #A8D0C5;/* colore sfondo del campo cognome paziente*/
+    	background-repeat: no-repeat;
+   		background-position:left;
+		width:285px;
+    	font:normal 18px Arial;
+    	color: #FFFFFF;
+    	padding:3px 5px 3px 19px;
+}
+.cognome_paz:focus, .cognome_paz:hover {
+	background-color:#F0FFE6;
+}
+
+.submit {
+
+	width:438px;
+	float:right;
+	background-color: #006699;
+	border:1px solid #ccc;
+	text-align:right;
+	height:35px;
+	margin-top:3px;
+	padding:2px 32px 2px;
+}
+.submit1 {
+	background: #e3e3db;
+	font-size:10px; 
+	color: #006699; 
+	padding: 4px 8px; 
+	border-width: 2px;
+	border-style: solid;
+	border-color: #fff #d8d8d0 #d8d8d0 #fff;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+
+
+
+/* ----- ----- --fine form inserisci record paziente - - -- -- -- - -- - -- --- ---*/
+
+
+
+
+/*
+label /*testo nome paziente; cognome paziente
+{
+
+width: 14.5em;
+float: left;
+text-align: center;
+margin-right: 240px;
+display: block;
+}
+
+.submit input
+{
+margin-left: 3.5em;
+    /*submit destra e sinistra
+
+}
+input
+{                       /*colore dei campi
+color: #666666;
+background: #CCCCCC;
+border: 1px solid #781351;
+
+
+}
+
+.submit input
+{
+color: #FFFFFF;
+background: #006699;    /*Colore di sfondo Submit
+border: 2px outset #d7b9c9
+}
+fieldset
+{
+border: 1px solid #781351;
+width: 230px
+}
+
+legend
+{
+color: #fff;                 /*titolo: inserisci record paziente
+background: #800000;
+border: 2px solid #999999;
+padding: 5px 8px
+} 
+
+
+.img_button_form
+{
+  
+     position:absolute;
+     background-image: url(img/form_button.gif);
+     background-repeat:no-repeat;
+     width:90px;
+     height:90px;
+     left: 90.2em;
+     top:456px;
+     border-color:#CC9900;
+    }
+
+
+*/
+
+
+
+/* box con ombra 
+div.container{
+position:relative;
+top:430px;
+margin:200px;
+width: 50%;
+background: #ccc url(img/bordo_inf_dx.gif) no-repeat bottom right;
+font-family:Arial, Helvetica, sans-serif;
+}
+div.head{
+background: url(img/bordo_sup_dx.gif) no-repeat top right;
+margin: 0;
+padding: 0;
+}
+div.head h4{
+background: url(img/bordo_sup_sx.gif) no-repeat top left;
+margin:0;
+padding: 20px 0 5px 28px;
+color:#fff; 
+font-weight: bold; 
+font-size: 1.1em; 
+}
+div.container div.body{
+background: url(img/bordo_inf_sx.gif) no-repeat bottom left;
+margin: 0;
+padding: 10px 20px 20px 60px;
+font-size:.95em;
+}
+div.body p{
+padding: 0 10px 0 0px;
+}
+
+*/
+
+
+
+
+
+

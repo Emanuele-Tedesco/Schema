@@ -1,0 +1,14 @@
+<table class="corpo_testo">
+<form name="inserisci" action="inserisci_m.php" method="post" enctype="multipart/form-data">
+<tr>
+	<td>Dispositivo:</td><td><select name="type">[option]</select></td>
+</tr><br />
+<tr>
+	<td>File misurazione:</td><td><input type="file" name="file" accept="text/plain"></td>
+</tr><br />
+<tr>
+	</tr><tr><td></td><td><input type="submit" value="Registra" /></td></form>
+	<form name="ricerca" action="index.php?case=ricerca_p&tipo=ins_m" method="post">
+	<td><input type="submit" value="Annulla" /></td></form>
+</tr>
+</table>
